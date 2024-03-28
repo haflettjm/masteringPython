@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "masteringpython"
+version = "0.0.1"
+description = "Finishing the mastering python book"
+authors = ["Jacob Haflett <hafletjm01@gmail.com>"]
+license = "Mine"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+progressbar2 = "^4.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
